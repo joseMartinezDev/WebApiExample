@@ -21,3 +21,5 @@ being {id} the id of the customer you want to activate the new number. In the bo
 a JSON with the type and telephone number. Example:
 {type:"office",number:"+34 912735477"}
 In this case we return the list of customers to verify the phone number has been added as we don't have a persistent database
+
+On the other hand, there are some Unit Tests in the solution which you can run inside Visual Studio in order to test the API in a simple and automatized way.
